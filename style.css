@@ -1,0 +1,608 @@
+/* NAVBAR CSS */
+
+#logo {
+  display: inline-block;
+  height: 88px;
+  transition: all 0.8s ease-in-out;
+}
+
+#logo:hover {
+  transform: rotate3d(0, 1, 0, -180deg);
+}
+
+.socials {
+  position: relative;
+
+  top: 10px;
+  display: flex;
+  float: right;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.socials a {
+  padding-right: 70px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.socials a:hover {
+  text-decoration: underline;
+  color: #fff;
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.68);
+}
+
+/* ------------------------------------------------------------- */
+
+/* BODY CSS */
+
+hr {
+  opacity: 0.4;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+#back {
+  height: 300px;
+  transition: all 0.5s ease-in-out;
+}
+
+#back:hover {
+  transform: scale(1.7);
+}
+
+.BG {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+/* --------------------------------------------------- */
+
+/* CONTENT SECTION CSS */
+
+.body-content {
+  background-color: white;
+  height: 1500px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.body-content:hover {
+  box-shadow: none;
+}
+
+#profile {
+  display: block;
+  margin: auto;
+
+  position: relative;
+  top: 80px;
+  height: 300px;
+}
+.video-edit {
+  display: flex;
+  justify-content: center;
+}
+.video-edit a {
+  text-decoration: none;
+  color: black;
+}
+
+.vlog-edit {
+  margin-right: 60px;
+}
+.unacademy-edit {
+  margin-left: 30px;
+}
+
+.data {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+.data-2 {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+.data-2 h1 {
+  font-size: 40px;
+}
+
+.data-2 h1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.data-2 h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#vlogs {
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  transition: all 0.4s;
+}
+#vlogs:hover {
+  transform: scale(1.2);
+}
+
+#interview {
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  transition: all 0.4s;
+}
+#interview:hover {
+  transform: scale(1.2);
+}
+
+#vlog-link {
+  color: black;
+  text-decoration: none;
+}
+
+#about {
+  padding: 20px;
+  padding-left: 160px;
+  padding-right: 160px;
+  font-size: 18px;
+}
+
+#about a {
+  text-decoration: none;
+  color: black;
+}
+#about a:hover {
+  text-decoration: underline;
+}
+
+#premiere {
+  height: 50px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+#premiere:hover {
+  transform: scale(1.2);
+}
+#ae {
+  height: 50px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+#ae:hover {
+  transform: scale(1.2);
+}
+#cpp {
+  height: 50px;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  transition: all 0.3s ease-in-out;
+}
+
+#cpp:hover {
+  transform: scale(1.2);
+}
+
+#html {
+  height: 50px;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+}
+#html:hover {
+  transform: scale(1.25);
+}
+#css {
+  height: 50px;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+}
+#css:hover {
+  transform: scale(1.25);
+}
+
+#js {
+  height: 50px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+#js:hover {
+  transform: scale(1.2);
+}
+
+.skills-img {
+  display: flex;
+  justify-content: center;
+}
+.work img {
+  height: 450px;
+  transition: all 0.3s;
+}
+.work img:hover {
+  transform: scale(1.2);
+}
+
+/* -------------------------------- */
+
+/* PROJECT SECTION CSS */
+
+.project-section {
+  margin-top: 150px;
+  padding: 40px;
+
+  background-color: white;
+  height: 1250px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.project-section:hover {
+  box-shadow: none;
+}
+
+/* CODING PROJECTS  */
+
+.coding-project {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.car-rental {
+  padding-right: 40px;
+}
+.student {
+  padding-right: 40px;
+}
+.car-rental a {
+  text-decoration: none;
+  color: black;
+}
+.student a {
+  text-decoration: none;
+  color: black;
+}
+.stock-exchange a {
+  text-decoration: none;
+  color: black;
+}
+#stu-report {
+  height: 200px;
+  border-radius: 8px;
+  transition: all 0.4s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+#stu-report:hover {
+  transform: scale(1.2);
+}
+
+#car-rent {
+  height: 200px;
+  border-radius: 8px;
+  transition: all 0.4s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+#car-rent:hover {
+  transform: scale(1.2);
+}
+
+#stocks {
+  height: 200px;
+  border-radius: 8px;
+  transition: all 0.4s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+#stocks:hover {
+  transform: scale(1.2);
+}
+
+.last {
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.last a {
+  color: white;
+}
+
+.socials-2 {
+  /* display: flex;
+  flex-flow: row wrap;
+  justify-content: center; */
+  display: none;
+}
+#linked {
+  padding: 20px;
+  height: 30px;
+  transition: all 0.2s;
+}
+
+#linked:hover {
+  transform: scale(1.25);
+}
+#git {
+  padding: 20px;
+  transition: all 0.2s;
+  height: 30px;
+}
+#git:hover {
+  transform: scale(1.25);
+}
+#gmail {
+  padding: 20px;
+  transition: all 0.2s;
+  height: 33px;
+}
+
+#gmail:hover {
+  transform: scale(1.25);
+}
+
+/* ------------------------------------------
+
+MEDIA QUIRIES*/
+
+@media (max-width: 715px) {
+  .socials-2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .navbar {
+    display: inline;
+  }
+  #logo {
+    display: block;
+    margin: auto;
+  }
+
+  #back {
+    display: block;
+    margin: auto;
+  }
+  .socials a {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1185px) {
+  .body-content {
+    height: 1650px;
+  }
+  .BG {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1000px) {
+  .body-content {
+    height: 1600px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #about {
+    padding: 20px;
+  }
+  .project-section {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 1500px;
+  }
+  .stock-exchange {
+    margin-top: 20px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 480px) {
+  .body-content {
+    height: 1600px;
+    padding: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #profile {
+    height: 200px;
+  }
+
+  #about {
+    padding: 10px;
+  }
+
+  .work img {
+    height: 400px;
+  }
+
+  .project-section {
+    height: 1650px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .student {
+    margin-top: 15px;
+    padding-right: 0px;
+  }
+  .car-rental {
+    margin-top: 15px;
+    padding-right: 0px;
+  }
+  .stock-exchange {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 1053px) and (max-width: 1379px) {
+  .project-section {
+    height: 1480px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1056px) {
+  .project-section {
+    height: 1820px;
+  }
+}
+
+@media (min-width: 655px) and (max-width: 674px) {
+  .project-section {
+    height: 1820px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 655px) {
+  .project-section {
+    height: 2000px;
+  }
+
+  .unacademy-edit {
+    padding-right: 20px;
+  }
+  .vlog-edit {
+    padding-left: 20px;
+  }
+
+  .student {
+    padding: 10px;
+  }
+
+  .car-rental {
+    padding: 10px;
+  }
+
+  .stock-exchange {
+    margin-top: 20px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 530px) {
+  #interview {
+    height: 130px;
+  }
+  #vlogs {
+    height: 130px;
+  }
+  #stu-report {
+    height: 150px;
+  }
+  #car-rent {
+    height: 150px;
+  }
+  #stocks {
+    height: 150px;
+  }
+}
+
+@media (max-width: 420px) {
+  #premiere {
+    height: 40px;
+  }
+  #ae {
+    height: 40px;
+  }
+  #cpp {
+    height: 40px;
+  }
+  #html {
+    height: 40px;
+  }
+  #css {
+    height: 40px;
+  }
+  #js {
+    height: 40px;
+  }
+
+  .work img {
+    height: 320px;
+  }
+}
+
+@media (min-width: 356px) and (max-width: 366px) {
+  .project-section {
+    height: 1730px;
+  }
+}
+
+@media (max-width: 356px) {
+  .skills-img {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .project-section {
+    height: 2000px;
+  }
+
+  #about {
+    font-size: 16px;
+  }
+  #logo {
+    height: 77px;
+  }
+
+  #profile {
+    height: 140px;
+  }
+
+  .work img {
+    height: 200px;
+  }
+
+  .video-edit {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .vlog-edit {
+    margin-right: 0px;
+  }
+  .unacademy-edit {
+    margin-left: 0px;
+  }
+
+  #stu-report {
+    height: 110px;
+  }
+  #car-rent {
+    height: 110px;
+  }
+  #stocks {
+    height: 110px;
+  }
+}
