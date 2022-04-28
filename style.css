@@ -554,55 +554,58 @@ MEDIA QUIRIES*/
   }
 }
 
-@media (min-width: 356px) and (max-width: 366px) {
+@media (min-width: 356px) and (max-width: 387px) {
   .project-section {
     height: 1730px;
   }
-}
-
-@media (max-width: 356px) {
-  .skills-img {
-    display: flex;
-    flex-flow: row wrap;
-  }
-  .project-section {
-    height: 2000px;
-  }
-
-  #about {
-    font-size: 16px;
-  }
-  #logo {
-    height: 77px;
-  }
-
-  #profile {
-    height: 140px;
-  }
-
-  .work img {
-    height: 200px;
-  }
-
-  .video-edit {
-    display: flex;
-    flex-flow: column wrap;
-  }
-
   .vlog-edit {
-    margin-right: 0px;
-  }
-  .unacademy-edit {
-    margin-left: 0px;
+    margin-right: 15px;
   }
 
-  #stu-report {
-    height: 110px;
-  }
-  #car-rent {
-    height: 110px;
-  }
-  #stocks {
-    height: 110px;
+  @media (max-width: 356px) {
+    .skills-img {
+      display: flex;
+      flex-flow: row wrap;
+    }
+    .project-section {
+      height: 2000px;
+    }
+
+    #about {
+      font-size: 16px;
+    }
+    #logo {
+      height: 77px;
+    }
+
+    #profile {
+      height: 140px;
+    }
+
+    .work img {
+      height: 200px;
+    }
+
+    .video-edit {
+      display: flex;
+      flex-flow: column wrap;
+    }
+
+    .vlog-edit {
+      margin-right: 0px;
+    }
+    .unacademy-edit {
+      margin-left: 0px;
+    }
+
+    #stu-report {
+      height: 110px;
+    }
+    #car-rent {
+      height: 110px;
+    }
+    #stocks {
+      height: 110px;
+    }
   }
 }
